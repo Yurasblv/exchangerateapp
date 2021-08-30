@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiohttp and jinja test</title>
+</head>
+<body>
+
+    <h1>UAH Currency converter</h1>
+
+        <form action="/" method="post" >
+                <input type="text" name="exchange" id="exchange"/>
+            <p>To
+                <label>
+                    <select name="select_to">
+                                 <option>RUR</option>
+                                 <option>EUR</option>
+                                 <option>USD</option>
+                                 <option>BTC</option>
+                    </select>
+                </label>
+            </p>
+            <input type="submit" value="exchange">
+        </form>
+    {{ rate }}
+</body>
+</html>
